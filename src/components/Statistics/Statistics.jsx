@@ -1,7 +1,7 @@
 import { Notification } from '../Notification/Notification';
 import { Container } from './Statistics.styled';
 export const Statistics = ({
-  state: { good, neutral, bad },
+   good, neutral, bad,
   countPositiveFeedback,
   total,
 }) => {
