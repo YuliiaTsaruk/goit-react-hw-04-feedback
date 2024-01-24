@@ -46,7 +46,7 @@ return (
   <Container>
     <Section title="Please leave feedback">
       <FeedbackOptions
-        onLeaveFeedback={onLeaveFeedback}
+        onLeaveFeedback={onLeaveFeedback} options={['good', 'neutral', 'bad']}
       />
     </Section>
 

@@ -1,6 +1,6 @@
 import { Button, Container } from './FeedbackOptions.styled';
 
-export const FeedbackOptions = ({ onLeaveFeedback, options }) => {
+export const FeedbackOptions = ({ onLeaveFeedback, options}) => {
   return (
     <Container>
       {options.map(option => {

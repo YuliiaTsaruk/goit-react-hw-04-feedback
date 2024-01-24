@@ -13,7 +13,7 @@ export const Statistics = ({
           <p>Neutral: {neutral}</p>
           <p>Bad: {bad}</p>
           <p>Total: {total}</p>
-          <p>Positive feedback: {countPositiveFeedback}%</p>
+          <p>Positive feedback: {countPositiveFeedback()}%</p>
         </Container>
       ) : (
         <Notification message="There is no feedback"></Notification>
